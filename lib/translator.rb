@@ -22,5 +22,5 @@ load_library(path)["get_emoticon"][emoticon] != nil ? load_library(path)["get_em
 end
 
 def get_english_meaning(path,emoticon)
-  load_library(path)["get_meaning"][emoticon] != nil ? load_library(path)["get_meaning"][emoticon] : "Sorry that emiticon was not found
+  load_library(path)["get_meaning"][emoticon] != nil ? load_library(path)["get_meaning"][emoticon] : "Sorry that emiticon was not found"
 end
