@@ -12,9 +12,8 @@ def load_library(path)
     rHash[:get_meaning]=rHash[:get_meaning].merge(v.last => k)
     rHash[:get_emoticon]=rHash[:get_emoticon].merge(v.first => v.last)
   }
- 
   rHash
-
+#bindng.pry
 end
 
 def get_japanese_emoticon
