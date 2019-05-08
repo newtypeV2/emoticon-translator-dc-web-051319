@@ -13,8 +13,6 @@ def load_library(path)
     rHash[:get_emoticon]=rHash[:get_emoticon].merge(v.first => v.last)
   }
  
-    
-    binding.pry
   rHash
 
 end
