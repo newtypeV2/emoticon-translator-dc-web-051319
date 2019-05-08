@@ -7,8 +7,9 @@ require "pry"
 def load_library(path)
   # code goes here
   emote = YAML.load_file(path)
-  #binding.pry
+
   rHash={get_meaning:{} , get_emoticon:{} }
+  
   rHash
 
 end
