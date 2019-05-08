@@ -9,6 +9,7 @@ def load_library(path)
   emote = YAML.load_file(path)
   rHash={get_meaning:{} , get_emoticon:{} }
   rHash
+  binding.pry
 end
 
 def get_japanese_emoticon
