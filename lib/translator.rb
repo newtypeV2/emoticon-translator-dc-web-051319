@@ -1,5 +1,6 @@
 # require modules here
 require "yaml"
+require "pry"
 emoticon = YAML.load_file('emoticon.yml')
 
 
